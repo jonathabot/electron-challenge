@@ -3,7 +3,6 @@
   width: 100vw;
   font-family: 'Montserrat', sans-serif;
   align-items: center;
-  font-weight: bold;
   display: flex;
   justify-content: center;
 }
@@ -23,6 +22,7 @@
   display: flex;
   margin-bottom: 4px;
   font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
 
 .inputName {
@@ -54,9 +54,8 @@
     height: 50px;
     align-items: center;
     color: black;
-    border-radius: 2%;
+    border-radius: 100;
     border: none;
-    transition-duration: 0.4s;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.1);
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
@@ -64,3 +63,9 @@
     background-color: var(--green); 
     margin-left: 45%;
 } 
+
+.buttonAdicionar:hover {
+  background-color: green;
+  color: white;
+  transition: 0.4s;
+}

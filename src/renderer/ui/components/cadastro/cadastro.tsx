@@ -16,8 +16,9 @@ export const Cadastro = () => {
         <label>
           <text className={styles.labelName}>ID:</text>
           <input
-            type="text"
-            name="name"
+            type="number"
+            min="0"
+            name="ID"
             placeholder="Número de identificação do produto"
             className={styles.inputId}
           />
@@ -26,7 +27,7 @@ export const Cadastro = () => {
           <text className={styles.labelName}>Observações:</text>
           <input
             type="text"
-            name="name"
+            name="observações"
             placeholder="Mais detalhes do produto"
             className={styles.inputObservacoes}
           />
@@ -34,13 +35,15 @@ export const Cadastro = () => {
         <label>
           <text className={styles.labelName}>Valor:</text>
           <input
-            type="text"
-            name="name"
+            type="number"
+            name="valor"
+            min="0"
             placeholder="R$0,00."
             className={styles.inputValor}
           />
         </label>
-        <button className={styles.buttonAdicionar}>Adicionar</button>
+        <button className={styles.buttonAdicionar}>Adicionar
+        </button>
       </form>
     </div>
   )
