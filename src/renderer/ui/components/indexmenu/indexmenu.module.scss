@@ -37,19 +37,25 @@
 }
 
 .menuButton1 {
-  background-color: var(--green);
+  background-color: #00b712;
+  background-image: linear-gradient(315deg, #00b712 0%, #5aff15 74%);
 }
 
 .menuButton1:hover {
   width: 250px;
   height: 200px;
+  color: white;
+  font-size: 18px;
 }
 
 .menuButton2 {
-  background-color: var(--orange);
+  background-color: #cfc7f8;
+  background-image: linear-gradient(315deg, #cfc7f8 0%, #ebbba7 74%);
 }
 
 .menuButton2:hover {
   width: 250px;
   height: 200px;
+  color: white;
+  font-size: 18px;
 }

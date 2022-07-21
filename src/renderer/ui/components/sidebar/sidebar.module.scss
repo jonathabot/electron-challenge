@@ -1,7 +1,8 @@
 .sidebar {
   width: 125px;
   height: 100vh;
-  background-color: var(--sidebar-bg);
+  background-color: #045de9;
+  background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
   color: white;
   display: flex;
   flex-direction: column;

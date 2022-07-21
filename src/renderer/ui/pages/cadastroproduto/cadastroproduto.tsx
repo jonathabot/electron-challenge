@@ -10,4 +10,5 @@ export const CadastroPage = () => {
       <Cadastro />
     </div>
   )
+
 }
