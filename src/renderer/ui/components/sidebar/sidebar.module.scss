@@ -1,0 +1,84 @@
+.sidebar {
+  width: 125px;
+  height: 100vh;
+  background-color: var(--sidebar-bg);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.logo {
+  width: 75px;
+  height: 75px;
+  margin-top: 15px;
+  font-size: 10px;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.logo:hover {
+  width: 75px;
+  height: 75px;
+  transition-duration: 5s;
+  cursor: pointer;
+  transform: rotate(360deg);
+}
+
+.sidebarImage1 {
+  display: block;
+  margin: auto;
+}
+
+.sideButton {
+  width: 125px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: white;
+  border-top-right-radius: 25%;
+  border-bottom-right-radius: 25%;
+  border: none;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.1);
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+}
+
+.sideButton:hover {
+  width: 135px;
+  height: 115px;
+  background-color: var(--black);
+  color: var(--white);
+  font-weight: bold;
+}
+
+.indexButton {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  margin-bottom: 15px;
+  box-shadow: none;
+  color: white;
+  background-color: transparent;
+  border: none;
+  transition-duration: 0.4s;
+}
+
+.indexButton:hover {
+  padding: 10%;
+  background-color: var(--black);
+  color: white;
+  border-radius: 5%;
+  font-weight: bold;
+}

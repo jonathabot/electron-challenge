@@ -1,0 +1,66 @@
+.cadastroComponent {
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Montserrat', sans-serif;
+  align-items: center;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.cadastroProduto {
+  background-color: white;
+  height: 350px;
+  width: 500px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.1);
+}
+
+
+.labelName {
+  margin-top: 5px;
+  display: flex;
+  margin-bottom: 4px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.inputName {
+  width: 400px;
+  height: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.inputId {
+  width: 125px;
+  height: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.inputObservacoes {
+  width: 300px;
+  height: 75px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.inputValor {
+  width: 125px;
+  height: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.buttonAdicionar {
+    width: 100px;
+    height: 50px;
+    align-items: center;
+    color: black;
+    border-radius: 2%;
+    border: none;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.1);
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: var(--green); 
+    margin-left: 45%;
+} 
