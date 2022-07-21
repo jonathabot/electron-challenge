@@ -12,3 +12,5 @@ A aplicação no momento está restrita ao tamanho 800x500. A aba de "Produtos" 
 
 1. Utilize o comando "yarn" para baixar as dependencias.
 2. Utilize o comando "yarn dev" para iniciar a aplicação.
+
+Qualquer dúvida pode me chamar no discord jonatha#0261 :) 
