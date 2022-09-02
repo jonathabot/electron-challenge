@@ -15,4 +15,6 @@ A aplicação no momento está restrita ao tamanho 800x500. A aba de "Produtos" 
 
 Qualquer dúvida pode me chamar no discord jonatha#0261 :) 
 
+#Preview da Aplicação
+
 ![alt text](preview.png)
